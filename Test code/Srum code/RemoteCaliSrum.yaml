@@ -995,7 +995,7 @@ interval:
         }
       }
 
-- interval: 5s
+- interval: 30min
   then:
     lambda: |-
       int sampleIndex = id(sample_index);  // Access global sampleIndex
